@@ -216,29 +216,29 @@
             flex-grow: 1;
         }
         
-        .pro-card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 15px;
-            border-top: 1px solid #2a3143;
-        }
+      .pro-card-footer {
+    display: flex;
+    flex-direction: column; /* מסדר את האייקון והכפתור אחד מעל השני */
+    align-items: center;    /* ממקם הכל במרכז */
+    padding: 15px 20px;
+    border-top: 1px solid #2a3143;
+    margin-top: auto;
+    gap: 10px;              /* מרווח קטן בין האייקון לכפתור */
+}
+
+.pro-card-btn {
+    width: 100%;            /* הכפתור יתפוס את כל רוחב הכרטיסייה */
+    text-align: center;     /* טקסט במרכז */
+    display: block;
+    box-sizing: border-box; /* מבטיח שהריפוד לא יפרוץ את הגבולות */
+}
         
         .card-icon-text {
             color: #94a3b8;
             font-size: 0.85rem;
         }
         
-        .pro-card-btn {
-            background-color: transparent;
-            color: #3b82f6;
-            border: 1px solid #3b82f6;
-            padding: 6px 15px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 0.9rem;
-            transition: 0.3s;
-        }
+   
         
         .pro-card:hover .pro-card-btn {
             background-color: #3b82f6;
@@ -260,4 +260,12 @@
             font-size: 1.2rem;
             margin: 0;
         }
+        .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 280px)); /* קבענו רוחב קבוע לכרטיסיות */
+    gap: 25px;
+    justify-content: center;
+    margin: 30px auto 50px auto;
+    padding: 0 20px;
+}
     </style>
