@@ -125,6 +125,7 @@
             height: auto;
             margin-bottom: 20px;
             transition:0.3s;
+            border-radius: 50%;
         }
 .site-logo:hover{
     transform: translateY(-8px);
