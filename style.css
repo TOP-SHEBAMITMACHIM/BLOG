@@ -128,7 +128,7 @@
         }
 .site-logo:hover{
     transform: translateY(-8px);
-    border:wihte 4px;
+    border:white dashed 4px;
 }
     
         hr {
