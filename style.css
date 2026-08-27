@@ -129,7 +129,7 @@
         }
 .site-logo:hover{
     transform: translateY(-8px);
-   box-shadow: 0 0 0 4px white;
+   box-shadow: 0 0 0 2px white;
 }
     
         hr {
